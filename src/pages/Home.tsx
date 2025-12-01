@@ -20,7 +20,7 @@ const Home = () => {
   }, []);
 
   const handleWhatsAppClick = () => {
-    const number = profile?.whatsapp_number || "";
+    const number = "+254737404659";
     window.open(`https://wa.me/${number}`, "_blank");
   };
 
@@ -68,13 +68,13 @@ const Home = () => {
               transition={{ delay: 0.2, type: "spring" }}
               className="inline-block mb-6"
             >
-              <span className="text-6xl md:text-8xl">👋</span>
+              <span className="text-6xl md:text-8xl"></span>
             </motion.div>
 
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-              Hi, I'm{" "}
+              Hi, I'm {"Malack Arori "}
               <span className="text-gradient">
-                {profile?.full_name || "Your Name"}
+                {profile?.full_name || ""}
               </span>
             </h1>
 
