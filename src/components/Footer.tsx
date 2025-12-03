@@ -17,7 +17,7 @@ const Footer = () => {
             whileInView={{ opacity: 1 }}
             className="text-muted-foreground text-sm"
           >
-            © {new Date().getFullYear()} Developer Portfolio. Built with React & Lovable Cloud.
+            © {new Date().getFullYear()} Developer Portfolio. Built with malone
           </motion.p>
 
           <div className="flex items-center gap-4">

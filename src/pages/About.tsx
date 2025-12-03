@@ -80,7 +80,7 @@ const About = () => {
             >
               <div>
                 <h2 className="text-3xl font-bold mb-2">
-                  {profile?.full_name || "Your Name"}
+                  {profile?.full_name || "Malack Arori"}
                 </h2>
                 <p className="text-xl text-primary mb-4">
                   {profile?.role || "Full Stack Developer"}
